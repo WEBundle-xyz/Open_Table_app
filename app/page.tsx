@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>Open Table app</h1>
+        <h1 className='text-red-300'>Open Table app</h1>
       </div>
     </main>
   );
