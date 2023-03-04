@@ -5,11 +5,7 @@ import styles from './page.module.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <h1 className='text-red-300'>Open Table app</h1>
-      </div>
-    </main>
-  );
+  return <main className='bg-gray-300 min-h-screen w-screen pt-5'>
+    <h1 className='text-center text-red-500'>This is Next 13 / TypeScript / and Tailwind CSS</h1>
+  </main>;
 }
